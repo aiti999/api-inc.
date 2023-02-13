@@ -1,0 +1,49 @@
+.App {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(220, 235, 248);
+}
+button:hover{
+  transition: 0.5s;
+  font-weight: bold;
+}
+.card1{
+  display: flex;
+  background: rgb(174,209,238);
+background: radial-gradient(circle, rgb(118, 238, 160) 0%, rgba(220, 93, 135, 0.854) 89%);
+  gap:4rem;
+
+}
+.card2:hover{
+  cursor: pointer;
+  font-size: small;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgb(245, 248, 245);
+  z-index: 1;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 100%;
+  animation: spin-anim 1s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
