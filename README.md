@@ -1,6 +1,8 @@
 # Task
 Create a User card grid layout having navbar showing any brand name with [Create React App].
-# about
+# Time taken to complete the project
+2 days
+# About
 Creating a web application using create-react-app. The application should have following features:
 
 1. Create a User card grid layout having navbar showing any brand name
